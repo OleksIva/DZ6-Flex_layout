@@ -186,8 +186,7 @@ h2 {
 
 .working_style img {
 	margin: 100px 0 70px 0;
-	width: 1200px;
-	height: 600px;
+	width: 100%
 }
 
 .rights {
@@ -205,4 +204,71 @@ h2 {
 	margin: 0 auto;
 }
 
+/* FLEX: <flex-grow> <flex-shrink> <flex-basis> */
+
+@media screen and (max-width:1320px){
+	
+}
+
+@media screen and (max-width: 992px){
+	.width_main {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.img_box img {
+		margin: 0 auto;
+	}
+	.imgbox_main {
+		width: 33.3333%;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.flex_img {
+		align-items: center;
+		flex-wrap: wrap;
+	}
+}
+
+@media screen and (max-width: 768px){
+	.menu_bar {
+		display: none;
+	}
+	.h1_flexbox {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	.width_main {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.img_box img {
+		margin: 0 auto;
+	}
+	.imgbox_main {
+		width: 50%;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	.flex_img {
+		align-items: center;
+		flex-wrap: wrap;
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.working_style {
+		padding-top: 50px;
+	}
+	.working_style img {
+		margin-top: 50px;
+	}
+	.mail_button {
+		width: 180px;
+		height: 52px;
+	}
+	.h1_flexbox .mail_button {
+		margin: 0 auto;
+	}
+}
 
